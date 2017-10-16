@@ -1,0 +1,129 @@
+.casa-caja-contenedor{
+  width: 800px;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pasto{
+    width: 1000px;
+    height: 70px;
+    background: #6CCC46;
+    position: absolute;
+    top: 500px;
+
+}
+
+.base{
+    width: 350px;
+    height: 160px;
+    background: #D23A3A;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+}
+
+.techo{
+    width: 350px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #171717;
+    position: absolute;
+    top: 250px;
+    left: 440px;
+}
+
+.ventana1{
+    width: 75px;
+    height: 75px;
+    background: #F0BFEB;
+    position: absolute;
+    top: 380px;
+    left: 533px
+}
+
+.ventana2{
+    width: 75px;
+    height: 75px;
+    background: #F0BFEB;
+    position: absolute;
+    top: 380px;
+    left: 746px
+}
+
+.puerta{
+  width: 80px;
+  height: 120px;
+  background: white;
+  position: absolute;
+  top: 380px;
+  left: 636px
+}
+
+.chimenea{
+  width: 57px;
+  height: 60px;
+  background-color: #F4AB58;
+  position: absolute;
+  top: 220px;
+  left: 750px;
+}
+
+.humo1{
+  width: 45px;
+  height: 45px;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+  background: #888582;
+  position: absolute;
+  top: 167px;
+  left: 760px;
+}
+
+.humo2{
+  width: 36px;
+  height: 36PX;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+  background: #B6AEA6;
+  position: absolute;
+  top: 140px;
+  left: 800px;
+}
+
+.humo3{
+  width: 30px;
+  height: 30PX;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+  background: #D1CDC8;
+  position: absolute;
+  top: 117px;
+  left: 835px;
+}
+
+.luna{
+    width: 105px;
+    height: 105px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 yellow;
+    -webkit-box-shadow: 30px 10px 0 yellow;
+    box-shadow: 30px 10px 0 yellow;
+    position: absolute;
+    top: 24px;
+    left: -17px;
+}
+
+.sol {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #535862;
+     position: absolute;
+     top: 30px;
+}
